@@ -1,0 +1,722 @@
+  .form-group.field-changed input, .form-group.field-changed select {
+        background-color: #f7f796;
+        border-color: #dddd81;
+    }
+
+    .form-group label.checkboxLabel {
+        padding-left: 0;
+    }
+    @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+      /* Force table to not be like tables anymore */
+      table, thead, tbody, th, td, tr {
+          display: block;
+      }
+      /* fix date picker style */
+      .picker tbody {
+          display: table-row-group;
+      }
+
+      .picker tr {
+          display: table-row;
+      }
+
+      .picker td {
+          display: table-cell;
+      }
+
+      .picker table, .picker thead {
+          display: table;
+      }
+      /* Hide table headers (but not display: none;, for accessibility) */
+      thead tr {
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+      }
+
+      tr {
+          border: 1px solid #ccc;
+      }
+
+      td {
+          /* Behave  like a "row" */
+          border: none;
+          border-bottom: 1px solid #eee;
+          position: relative;
+          padding-left: 50%;
+      }
+
+          td:before {
+              /* Now like a table header */
+              position: absolute;
+              /* Top/left values mimic padding */
+              top: 6px;
+              left: 6px;
+              width: 45%;
+              padding-right: 10px;
+              white-space: nowrap;
+          }
+
+      tr {
+          margin-top: 25px;
+      }
+      .bookings-table-view .from-pin {
+        color: green;
+    }
+
+    .bookings-table-view .to-pin {
+        color: rgb(156, 2, 2);
+    }
+
+    .bookings-table-view .driver-img {
+        max-height: 70px;
+        padding-right: 20px;
+    }
+
+    .bookings-table-view .driver-details {
+    }
+    .booking-form .picker, .picker__holder {
+      position: absolute !important;
+  }
+
+  .picker__wrap {
+      margin: 0;
+  }
+
+  @media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
+      .booking-form .picker, .picker__holder {
+          max-width: 313px;
+      }
+  }
+
+  @keyframes beginBrowserAutofill{0%{}to{}}@keyframes endBrowserAutofill{0%{}to{}}.pac-container{background-color:#fff;position:absolute!important;z-index:1000;border-radius:2px;border-top:1px solid #d9d9d9;font-family:Arial,sans-serif;box-shadow:0 2px 6px rgba(0,0,0,0.3);-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;overflow:hidden}.pac-logo:after{content:"";padding:1px 1px 1px 0;height:18px;box-sizing:border-box;text-align:right;display:block;background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3.png);background-position:right;background-repeat:no-repeat;background-size:120px 14px}.hdpi.pac-logo:after{background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3_hdpi.png)}.pac-item{cursor:default;padding:0 4px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:30px;text-align:left;border-top:1px solid #e6e6e6;font-size:11px;color:#999}.pac-item:hover{background-color:#fafafa}.pac-item-selected,.pac-item-selected:hover{background-color:#ebf2fe}.pac-matched{font-weight:700}.pac-item-query{font-size:13px;padding-right:3px;color:#000}.pac-icon{width:15px;height:20px;margin-right:7px;margin-top:6px;display:inline-block;vertical-align:top;background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png);background-size:34px}.hdpi .pac-icon{background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons_hdpi.png)}.pac-icon-search{background-position:-1px -1px}.pac-item-selected .pac-icon-search{background-position:-18px -1px}.pac-icon-marker{background-position:-1px -161px}.pac-item-selected .pac-icon-marker{background-position:-18px -161px}.pac-placeholder{color:gray}.pac-target-input:-webkit-autofill{animation-name:beginBrowserAutofill}.pac-target-input:not(:-webkit-autofill){animation-name:endBrowserAutofill}
+  [uib-typeahead-popup].dropdown-menu{display:block;}.uib-time input{width:50px;}[uib-tooltip-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom > .tooltip-arrow,[uib-popover-popup].popover.top-left > .arrow,[uib-popover-popup].popover.top-right > .arrow,[uib-popover-popup].popover.bottom-left > .arrow,[uib-popover-popup].popover.bottom-right > .arrow,[uib-popover-popup].popover.left-top > .arrow,[uib-popover-popup].popover.left-bottom > .arrow,[uib-popover-popup].popover.right-top > .arrow,[uib-popover-popup].popover.right-bottom > .arrow,[uib-popover-html-popup].popover.top-left > .arrow,[uib-popover-html-popup].popover.top-right > .arrow,[uib-popover-html-popup].popover.bottom-left > .arrow,[uib-popover-html-popup].popover.bottom-right > .arrow,[uib-popover-html-popup].popover.left-top > .arrow,[uib-popover-html-popup].popover.left-bottom > .arrow,[uib-popover-html-popup].popover.right-top > .arrow,[uib-popover-html-popup].popover.right-bottom > .arrow,[uib-popover-template-popup].popover.top-left > .arrow,[uib-popover-template-popup].popover.top-right > .arrow,[uib-popover-template-popup].popover.bottom-left > .arrow,[uib-popover-template-popup].popover.bottom-right > .arrow,[uib-popover-template-popup].popover.left-top > .arrow,[uib-popover-template-popup].popover.left-bottom > .arrow,[uib-popover-template-popup].popover.right-top > .arrow,[uib-popover-template-popup].popover.right-bottom > .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}.uib-datepicker-popup.dropdown-menu{display:block;float:none;margin:0;}.uib-button-bar{padding:10px 9px 2px;}.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute !important;top:-9999px !important;width:50px !important;height:50px !important;overflow:scroll !important;}.uib-position-body-scrollbar-measure{overflow:scroll !important;}.uib-datepicker .uib-title{width:100%;}.uib-day button,.uib-month button,.uib-year button{min-width:100%;}.uib-left,.uib-right{width:100%}.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}
+
+  .driver-summary i {
+    margin-right: 10px;
+}
+
+.drivers-grid .contact-box {
+    min-height: 300px;
+}
+
+.drivers-grid .driver-image {
+    max-height: 150px;
+}
+
+
+
+
+
+.form-group.field-changed input, .form-group.field-changed select {
+  background-color: #f7f796;
+  border-color: #dddd81;
+}
+
+.form-group label.checkboxLabel {
+  padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-group.field-changed input, .form-group.field-changed select {
+  background-color: #f7f796;
+  border-color: #dddd81;
+}
+
+.form-group label.checkboxLabel {
+  padding-left: 0;
+}
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+      display: block;
+  }
+
+  /* fix date picker style */
+  .picker tbody { display: table-row-group; }
+  .picker tr { display: table-row; }
+  .picker td { display: table-cell; }
+  .picker table, .picker thead { display: table; }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+  }
+
+  tr {
+      border: 1px solid #ccc;
+  }
+
+  td {
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+  }
+
+      td:before {
+          /* Now like a table header */
+          position: absolute;
+          /* Top/left values mimic padding */
+          top: 6px;
+          left: 6px;
+          width: 45%;
+          padding-right: 10px;
+          white-space: nowrap;
+      }
+
+  tr {
+      margin-top: 25px;
+  }
+  .bookings-table-view .from-pin {
+    color: green;
+}
+
+.bookings-table-view .to-pin {
+    color: rgb(156, 2, 2);
+}
+
+.bookings-table-view .driver-img {
+    max-height: 70px;
+    padding-right: 20px;
+}
+
+.bookings-table-view .driver-details {
+}
+
+
+
+
+
+[uib-typeahead-popup].dropdown-menu{display:block;}
+.uib-time input{width:50px;}[uib-tooltip-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom > .tooltip-arrow,[uib-popover-popup].popover.top-left > .arrow,[uib-popover-popup].popover.top-right > .arrow,[uib-popover-popup].popover.bottom-left > .arrow,[uib-popover-popup].popover.bottom-right > .arrow,[uib-popover-popup].popover.left-top > .arrow,[uib-popover-popup].popover.left-bottom > .arrow,[uib-popover-popup].popover.right-top > .arrow,[uib-popover-popup].popover.right-bottom > .arrow,[uib-popover-html-popup].popover.top-left > .arrow,[uib-popover-html-popup].popover.top-right > .arrow,[uib-popover-html-popup].popover.bottom-left > .arrow,[uib-popover-html-popup].popover.bottom-right > .arrow,[uib-popover-html-popup].popover.left-top > .arrow,[uib-popover-html-popup].popover.left-bottom > .arrow,[uib-popover-html-popup].popover.right-top > .arrow,[uib-popover-html-popup].popover.right-bottom > .arrow,[uib-popover-template-popup].popover.top-left > .arrow,[uib-popover-template-popup].popover.top-right > .arrow,[uib-popover-template-popup].popover.bottom-left > .arrow,[uib-popover-template-popup].popover.bottom-right > .arrow,[uib-popover-template-popup].popover.left-top > .arrow,[uib-popover-template-popup].popover.left-bottom > .arrow,[uib-popover-template-popup].popover.right-top > .arrow,[uib-popover-template-popup].popover.right-bottom > .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}.uib-datepicker-popup.dropdown-menu{display:block;float:none;margin:0;}.uib-button-bar{padding:10px 9px 2px;}.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute !important;top:-9999px !important;width:50px !important;height:50px !important;overflow:scroll !important;}.uib-position-body-scrollbar-measure{overflow:scroll !important;}.uib-datepicker .uib-title{width:100%;}.uib-day button,.uib-month button,.uib-year button{min-width:100%;}.uib-left,.uib-right{width:100%}.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}
+
+
+
+
+
+
+
+
+ 
+        .input-daterange .input-sm { max-width: 125px; }
+        .table-responsive td { vertical-align: middle !important; }
+
+        @media screen {
+          #printSection {
+              display: none;
+          }
+        }
+
+        @media print {
+          body * {
+            visibility:hidden;
+          }
+          #printSection, #printSection * {
+            visibility:visible;
+          }
+          #printSection {
+            position:absolute;
+            left:0;
+            top:0;
+          }
+        }
+    
+
+    
+    .booking-form .picker, .picker__holder {
+        position: absolute !important;
+    }
+
+    .picker__wrap {
+        margin: 0;
+    }
+
+    @media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
+        .booking-form .picker, .picker__holder {
+            max-width: 313px;
+        }
+    }
+
+
+
+
+.input-daterange .input-sm { max-width: 125px; }
+.icheckbox_minimal-yellow { margin-top: -3px !important;}
+
+
+
+
+
+
+
+[uib-typeahead-popup].dropdown-menu{display:block;}.uib-time input{width:50px;}[uib-tooltip-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom > .tooltip-arrow,[uib-popover-popup].popover.top-left > .arrow,[uib-popover-popup].popover.top-right > .arrow,[uib-popover-popup].popover.bottom-left > .arrow,[uib-popover-popup].popover.bottom-right > .arrow,[uib-popover-popup].popover.left-top > .arrow,[uib-popover-popup].popover.left-bottom > .arrow,[uib-popover-popup].popover.right-top > .arrow,[uib-popover-popup].popover.right-bottom > .arrow,[uib-popover-html-popup].popover.top-left > .arrow,[uib-popover-html-popup].popover.top-right > .arrow,[uib-popover-html-popup].popover.bottom-left > .arrow,[uib-popover-html-popup].popover.bottom-right > .arrow,[uib-popover-html-popup].popover.left-top > .arrow,[uib-popover-html-popup].popover.left-bottom > .arrow,[uib-popover-html-popup].popover.right-top > .arrow,[uib-popover-html-popup].popover.right-bottom > .arrow,[uib-popover-template-popup].popover.top-left > .arrow,[uib-popover-template-popup].popover.top-right > .arrow,[uib-popover-template-popup].popover.bottom-left > .arrow,[uib-popover-template-popup].popover.bottom-right > .arrow,[uib-popover-template-popup].popover.left-top > .arrow,[uib-popover-template-popup].popover.left-bottom > .arrow,[uib-popover-template-popup].popover.right-top > .arrow,[uib-popover-template-popup].popover.right-bottom > .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}.uib-datepicker-popup.dropdown-menu{display:block;float:none;margin:0;}.uib-button-bar{padding:10px 9px 2px;}.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute !important;top:-9999px !important;width:50px !important;height:50px !important;overflow:scroll !important;}.uib-position-body-scrollbar-measure{overflow:scroll !important;}.uib-datepicker .uib-title{width:100%;}.uib-day button,.uib-month button,.uib-year button{min-width:100%;}.uib-left,.uib-right{width:100%}.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}
+
+
+
+
+
+
+
+@media print {
+  body * {
+      visibility: hidden;
+  }
+
+  #printSection, #printSection * {
+      visibility: visible;
+  }
+
+  #printSection {
+      position: absolute;
+      left: 0;
+      top: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+  body * {
+      visibility: hidden;
+  }
+
+  #printSection, #printSection * {
+      visibility: visible;
+  }
+
+  #printSection {
+      position: absolute;
+      left: 0;
+      top: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.input-daterange .input-sm {
+    max-width: 125px;
+}
+
+.table-responsive td {
+    vertical-align: middle !important;
+}
+
+@media screen {
+    #printSection {
+        display: none;
+    }
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    #printSection, #printSection * {
+        visibility: visible;
+    }
+
+    #printSection {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.form-group.field-changed input, .form-group.field-changed select, .form-group.field-changed div.icheckbox_minimal-yellow {
+  background-color: #f7f796;
+  border-color: #dddd81;
+}
+
+.form-group label.checkboxLabel {
+  padding-left: 0;
+}
+
+.i-checks {
+  margin-top: 30px;
+}
+
+.driver-summary i {
+  margin-right: 10px;
+}
+
+.drivers-grid .contact-box {
+  min-height: 260px;
+}
+
+.drivers-grid .driver-image {
+  max-height: 150px;
+}
+
+
+
+
+
+
+
+
+.driver-summary i {
+  margin-right: 10px;
+}
+
+.drivers-grid .contact-box {
+  min-height: 260px;
+}
+
+.drivers-grid .driver-image {
+  max-height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+table td {
+  vertical-align: middle !important;
+}
+
+
+
+
+
+
+
+
+
+
+.form-group.field-changed input {
+  background-color: #f7f796;
+}
+
+.form-group.field-changed input {
+  border-color: #dddd81;
+}
+
+.form-group label.checkboxLabel {
+  padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.booking-form .picker, .picker__holder {
+  position: absolute !important;
+}
+.picker__wrap {
+  margin: 0;
+}
+@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
+  .booking-form .picker, .picker__holder {
+      max-width: 313px;
+  }
+}
+
+
+
+
+
+
+.edit-prices-form input {
+  text-align: right;
+}
+
+.form-group.field-changed input, .form-group.field-changed select {
+  background-color: #f7f796;
+  border-color: #dddd81;
+}
+
+.form-group label.checkboxLabel {
+  padding-left: 0;
+}
+
+.tabs-container {
+  margin-top: 25px;
+}
+.nav-tabs .nav-link {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table td {
+  vertical-align: middle !important;
+}
+
+
+
+
+
+
+
+
+.form-group.field-changed input, .form-group.field-changed select {
+  background-color: #f7f796;
+  border-color: #dddd81;
+}
+
+.form-group label.checkboxLabel {
+  padding-left: 0;
+}
+
+
+
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+      display: block;
+  }
+  /* fix date picker style */
+  .picker tbody {
+      display: table-row-group;
+  }
+
+  .picker tr {
+      display: table-row;
+  }
+
+  .picker td {
+      display: table-cell;
+  }
+
+  .picker table, .picker thead {
+      display: table;
+  }
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+  }
+
+  tr {
+      border: 1px solid #ccc;
+  }
+
+  td {
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+  }
+
+      td:before {
+          /* Now like a table header */
+          position: absolute;
+          /* Top/left values mimic padding */
+          top: 6px;
+          left: 6px;
+          width: 45%;
+          padding-right: 10px;
+          white-space: nowrap;
+      }
+
+  tr {
+      margin-top: 25px;
+  }
+
+}
+
+.bookings-table-view .from-pin {
+  color: green;
+}
+
+.bookings-table-view .to-pin {
+  color: rgb(156, 2, 2);
+}
+
+.bookings-table-view .driver-img {
+  max-height: 70px;
+  padding-right: 20px;
+}
+
+.bookings-table-view .driver-details {
+}
+
+
+
+.input-daterange .input-sm {
+  max-width: 125px;
+}
+
+.table-responsive td {
+  vertical-align: middle !important;
+}
+
+@media screen {
+  #printSection {
+      display: none;
+  }
+}
+
+
+
+@media print {
+  body * {
+      visibility: hidden;
+  }
+
+  #printSection,
+  #printSection * {
+      visibility: visible;
+  }
+
+  #printSection {
+      position: absolute;
+      left: 0;
+      top: 0;
+  }
+}
+
+
+
+
+.booking-form .picker,
+.picker__holder {
+    position: absolute !important;
+}
+
+.picker__wrap {
+    margin: 0;
+}
+ 
+
+@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
+
+    .booking-form .picker,
+    .picker__holder {
+        max-width: 313px;
+    }
+}
+
+
+
+.edit-prices-form input {
+  text-align: right;
+}
+
+.form-group.field-changed input, .form-group.field-changed select {
+  background-color: #f7f796;
+  border-color: #dddd81;
+}
+
+.form-group label.checkboxLabel {
+  padding-left: 0;
+}
+
+.tabs-container {
+  margin-top: 25px;
+}
+.nav-tabs .nav-link {
+  font-size: 20px;
+}
+.booking-form .picker, .picker__holder {
+  position: absolute !important;
+}
+
+.picker__wrap {
+  margin: 0;
+}
+
+@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
+  .booking-form .picker, .picker__holder {
+      max-width: 313px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
